@@ -1,0 +1,3 @@
+[submodule "3rd/Moe.Core"]
+	path = 3rd/Moe.Core
+	url = https://github.com/9chu/Moe.Core

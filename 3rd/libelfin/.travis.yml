@@ -1,0 +1,10 @@
+sudo: required
+# The default environment is Ubuntu 12.04, which only has GCC 4.6.
+dist: trusty
+language: cpp
+script:
+  - make
+  - make check
+compiler:
+  - gcc
+  - clang
